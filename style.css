@@ -1,6 +1,195 @@
 body{
     margin: auto;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: #dfdfdf;
+    color: #000000;
 }
 
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    background-color: #c4c4c4;
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(99, 99, 99);
+}
+.nav:visited{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    background-color: #c4c4c4;
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(99, 99, 99);
+}
+
+.nav:hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    background-color: #c4c4c4;
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(59, 59, 59);
+}
+
+.nav:active{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    background-color: #c4c4c4;
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.title{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: bold;
+    margin: 0 10% 10px;
+    padding: 0 auto;
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: bold;
+    margin: 0 10% 10px;
+    padding: 0 auto;
+
+}
+
+p{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 0 10% 10px;
+    padding: 0 auto;
+}
+
+.profiles, .prfiles:visited{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 0 10% 10px;
+    padding: 0 auto;
+    text-decoration: underline;
+    color:rgb(99, 99, 99);
+}
+.profiles:hover{
+    text-decoration: underline;
+    color: rgb(59, 59, 59);
+}
+
+.profiles:active{
+    text-decoration: underline;
+    color:white;
+}
+
+.reference, .reference:visited{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: 0 10% 10px;
+    padding: 0 auto;
+    text-decoration: underline;
+    color:rgb(99, 99, 99);
+}
+
+.reference:hover{
+    text-decoration: underline;
+    color: rgb(59, 59, 59);
+    margin: 0 10% 10px;
+}
+
+.reference:active{
+    text-decoration: underline;
+    color:white;
+    margin: 0 10% 10px;
+}
+
+
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 0 50px;
+}
+
+footer{
+    max-width: 100%;
+    text-align: center;
+    margin: 50px auto auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #c4c4c4;
+}
+
+.top, .top:visited{
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(99, 99, 99);
+}
+
+.top:hover{
+    text-decoration: underline;
+    color: rgb(59, 59, 59);
+    margin: 0 10% 10px;
+}
+
+.top:active{
+    text-decoration: underline;
+    color:white;
+    margin: 0 10% 10px;
+}
+
+hr{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 90%;
+    border-top: 2px solid rgba(57, 74, 94, 0.582);
+}
+
+table{
+    font-size: 16px;
+    font-family: 'Shippori Mincho B1', serif;
+    margin: 0 10% 10px;
+    padding: 0 auto;
+}
+
+.record, record:visited{
+    font-family: 'Crimson Text', serif;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-decoration: none;
+    color:rgb(99, 99, 99);
+}
+.record:hover{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+
+.record:active{
+    text-decoration: none;
+    color:white;
+}
+
+.fref{
+    display: flex;
+    flex-direction: row;
+}
