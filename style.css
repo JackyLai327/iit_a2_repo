@@ -64,7 +64,7 @@ header{
 }
 
 h2{
-    font-size: 32px;
+    font-size: 35px;
     font-family: 'Shippori Mincho B1', serif;
     font-weight: bold;
     margin: 0 10% 30px;
@@ -72,7 +72,7 @@ h2{
 }
 
 h3{
-    font-size: 28px;
+    font-size: 26px;
     font-family: 'Shippori Mincho B1', serif;
     font-weight: bold;
     margin: 0 10% 10px;
@@ -109,7 +109,7 @@ p{
 .reference, .reference:visited{
     font-family: 'Crimson Text', serif;
     font-size: 20px;
-    margin: 0 10% 10px;
+    margin: 0 auto;
     padding: 0 auto;
     text-decoration: underline;
     color:rgb(99, 99, 99);
@@ -230,62 +230,63 @@ hr{
     color:white;
 }
 
-.fref{
-    display: flex;
-    flex-direction: row;
-}
-
 .initials::first-letter {
     initial-letter: 2;
     font-size: 30px
-  }
+}
 
 .question{
     font-size: 22px;
 }
 
 .images{
-    width:200px;
+    width:250px;
     padding: 100px;
     text-align: center;
     margin-bottom: 1px;
-  }
+}
 
-  .side{
+.side{
     float: left;
     margin: 3.5em 3em auto 6em;
     border-radius: 50%;
     width: 250px;
     height: 250px;
     padding: 0 auto;
-  }
+}
 
-  .jobs{
+.jobs{
     font-family: 'Crimson Text', serif;
     margin: 0 10% 10px 30%;
     padding: 0 auto;
     text-align: left;
-  }
+}
 
-  .julie{
+.julie{
     float: left;
     margin: .5em 3em auto 6em;
     border-radius: 50%;
     width: 250px;
     height: 250px;
     padding: 0 auto;
-  }
+}
 
-  .industry{
+.industry{
       text-align: center;
       margin-bottom: 50px;
-  }
+}
 
-  .pfp{
+.pfp{
     float: left;
     margin: 0.25em 1.5em auto 8em;
     border-radius: 50%;
     width: 200px;
     height: 200px;
     padding: 0 auto;
-  }
+}
+
+.game_flow{
+    width: 500px;
+    border-radius: 25%;
+    margin: 10px auto 10px 25%;
+}
