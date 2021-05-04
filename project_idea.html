@@ -43,7 +43,7 @@
             <p>When discussing any enemy AI it is hard to overlook F.E.A.R. (2005), often touted as the pinnacle of enemy AI for its time and even withstanding the test of time more than 15 years later. Most AI units in gaming are Finite State Machines (FSMs). Simply put, a sequence of commands and operations that will activate given the correct circumstances. However, only one state of the FSM can be active at any given time, so the machine must re-evaluate its situation to be able to flow from one state to another.</p>
             <p>Here we see a simple form of enemy AI in a game. 
             <br />
-            <img src="images/game_flow.png" alt="game_flow" class = "game_flow">
+            <img src="images/enemy.png" alt="game_flow" class = "game_flow">
             <br />
             Within given parameters and circumstances, the enemy AI would simply follow the logic tree. FSMs are useful in planning out unit behavior as they are very easily represented through visual aids such as graphs. Our only hope is that we do not create an unfair game as we each find the creation of the AI to be extremely exciting.</p>
             
@@ -56,6 +56,34 @@
             <hr>
 
             <p>It was also due to our inexperience in making a game that we have limited our choices of game maker programs. Unity and Unreal, being in the industry for 15 years and over 20 years respectively, followed closely by GameMaker Studio 2 and Construct 3 who are favorites for the indie creator market.</p>
+            
+            <p>
+                The premise of the game should be quite simple, we will attempt to make a top-down shooter game. The ease of a top down shooter is that we will not need to work with and worry about 3D space and will be exclusively working on a 2D plane. 
+            </p>
+            <p>
+                2D games typically involve, a floor map, collision and walls, a character model, and enemy models. Depending on how complex in direction we take the game will determine the amount of assets that we would need to make for the game. Due to the original proposal of the idea, a horror/thriller game. The floor plan would be simple enough with simple collision. But feel claustrophobic and difficult to navigate. Below is an example of a rough floor plan.
+            </p>
+            <br />
+            <img src="images/map.png" alt="map_walls" class = "game_flow">
+            <br />
+            <p>
+                Black border wall to set the map limits, and grey obstacles or walls within the game space itself. As depicted, the world itself is not detailed. But should provide enough of a task to be able to successfully manoeuvre through. Of course, to really set the mood, we would like the player to not be able to see the whole map, so we would attempt to narrow the scope/field of vision of the player. 
+            </p>
+
+            <hr>
+
+            <p>
+                We are also tossing up the idea of a cone of vision, to imitate the vision capabilities of a torch/flashlight the player uses, further restricting the view of the player and make it feel more claustrophobic. However, there is a fine line and will require some fine tuning as to make it not too frustrating and limiting on the player. 
+            </p>
+            <br />
+            <img src="images/search.png" alt="enemy_search" class = "game_flow">
+            <br />
+            <p>
+                As the example above shows, the player would only be able to see things within a certain distancenear themselves, and the torch will also have collision with walls and edges creating again, that sense of claustrophobia and dread.
+            </p>
+            <p>
+                The little walls and obstacles obscuring the player’s vision is paramount to a horror game, it provides a ‘What’s around the corner’ sort of feeling, further increasing the tension that the player might feel. Smaller stand-alone objects in the map provide the player with a means to ‘kite’ an enemy unit that may be trying to kill the player. Allowing the player to run circles around the collision object while for example reloading a gun and staying out of harms’ way. Careful positioning of the player character would be crucial in this game as if the player were to be cornered and surrounded on the map, it should spell certain doom. 
+            </p>
         </main>
 
         <footer>
